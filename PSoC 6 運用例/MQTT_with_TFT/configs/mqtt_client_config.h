@@ -51,8 +51,8 @@
 
 /***************** MQTT CLIENT CONNECTION CONFIGURATION MACROS *****************/
 /* MQTT Broker/Server address and port used for the MQTT connection. */
-#define MQTT_BROKER_ADDRESS               "test.mosquitto.org" //140.118.207.24 test.mosquitto.org 125.228.108.2
-#define MQTT_PORT                         1883 //10051 1883 10051
+#define MQTT_BROKER_ADDRESS               "mqtt address"
+#define MQTT_PORT                         port
 
 /* Set this macro to 1 if a secure (TLS) connection to the MQTT Broker is
  * required to be established, else 0.
@@ -66,8 +66,8 @@
 
 /********************* MQTT MESSAGE CONFIGURATION MACROS **********************/
 /* The MQTT topics to be used by the publisher and subscriber. */
-#define MQTT_PUB_TOPIC                    "cars/enter/1"//cars/enter/1 ledstatus
-#define MQTT_SUB_TOPIC                    "cars/enter/1/response"//cars/enter/1/response ledstatus
+#define MQTT_PUB_TOPIC                    "publisher topic"
+#define MQTT_SUB_TOPIC                    "subscribe topic"
 
 /* Set the QoS that is associated with the MQTT publish, and subscribe messages.
  * Valid choices are 0, 1, and 2. Other values should not be used in this macro.
