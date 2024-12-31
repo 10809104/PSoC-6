@@ -49,10 +49,10 @@
 * Macros
 ********************************************************************************/
 /* SSID of the Wi-Fi Access Point to which the MQTT client connects. */
-#define WIFI_SSID                         "bb 9N"//EEB02 IoT-Lab
+#define WIFI_SSID                         "your wifi name"
 
 /* Passkey of the above mentioned Wi-Fi SSID. */
-#define WIFI_PASSWORD                     "0917973013"//IOTEEB0202
+#define WIFI_PASSWORD                     "your wifi password"
 
 /* Security type of the Wi-Fi access point. See 'cy_wcm_security_t' structure
  * in "cy_wcm.h" for more details.
