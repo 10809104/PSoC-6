@@ -88,3 +88,15 @@
 
 如需更多詳細信息，請參考上述鏈接中的相關範例和資料。
 
+## 許可證
+
+此專案包含以下兩種許可證：
+
+### 1. MIT 許可證
+
+你的代碼基於 **MIT 許可證** 開源，詳細許可條款請參見 [LICENSE](./LICENSE) 文件。
+
+### 2. Cypress 軟體許可證
+
+專案中使用了來自 **Cypress Semiconductor** 的軟體，這些軟體受 **Cypress 軟體許可證** 約束。Cypress的許可證條款詳情請參見 [Cypress EULA](https://www.cypress.com/documentation/software-licenses)。
+
