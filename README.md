@@ -98,5 +98,5 @@
 
 ### 2. Cypress 軟體許可證
 
-專案中使用了來自 **Cypress Semiconductor** 的軟體，這些軟體受 **Cypress 軟體許可證** 約束。Cypress的許可證條款詳情請參見 [Cypress EULA](https://www.cypress.com/documentation/software-licenses)。
+專案中使用了來自 **Cypress Semiconductor** 的軟體，這些軟體受 **Cypress 軟體許可證** 約束。Cypress的許可證條款詳情請參見 [Cypress EULA](https://github.com/10809104/PSoC-6/blob/master/PSoC%206%20%E9%81%8B%E7%94%A8%E4%BE%8B/MQTT_with_TFT/LICENSE)。
 
