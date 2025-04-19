@@ -54,7 +54,7 @@
    ![待機畫面](example/release.png)
 
 3. **主畫面**：接收到訊息，畫面會出現xxxxxxx以及QR碼。此時可以按按鈕傳送MQTT訊息。格式為xxxxxxx5或是xxxxxxx2。此時可以用MQTT傳送xxxxxxx改變一次原來xxxxxxx的訊息。
-   ![待機畫面](example/main.png)
+   ![主畫面](example/main.png)
 
 4. **其他畫面**：如果PSoC傳送的MQTT訊息結尾是5，等待收到的MQTT時間跟數字訊息(xxxx/xx/xx xx:xx:xx x  )；如果結尾是2，則等待數字訊息(x)。
 
