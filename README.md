@@ -48,14 +48,17 @@
 #define MQTT_SUB_TOPIC                    "cars/enter/1/response"
 ```
 1. **進行網路相關連線**：畫面呈現Initializing...
+   ![Initializing](example/initial.png)
 
 2. **連接完會呈現待機畫面**：畫面會是一個大的QR碼，等待接收來自UART訊息。格式為xxxxxxx!
+   ![待機畫面](example/release.png)
 
 3. **主畫面**：接收到訊息，畫面會出現xxxxxxx以及QR碼。此時可以按按鈕傳送MQTT訊息。格式為xxxxxxx5或是xxxxxxx2。此時可以用MQTT傳送xxxxxxx改變一次原來xxxxxxx的訊息。
+   ![待機畫面](example/main.png)
 
 4. **其他畫面**：如果PSoC傳送的MQTT訊息結尾是5，等待收到的MQTT時間跟數字訊息(xxxx/xx/xx xx:xx:xx x  )；如果結尾是2，則等待數字訊息(x)。
 
-6. **畫面返回**：可按照圖示操作PSoC控制主畫面/其他畫面。如果收到xxxxxxx#，會返回成待機畫面。
+5. **畫面返回**：可按照圖示操作PSoC控制主畫面/其他畫面。如果收到xxxxxxx#，會返回成待機畫面。
 
 ## UART 設置
 
